@@ -1,0 +1,179 @@
+Last login: Thu Apr 30 19:34:30 on ttys001
+ceilidhs-mbp:~ ceilidhfraser$ cd /Users/ceilidhfraser/Desktop
+ceilidhs-mbp:Desktop ceilidhfraser$ ls
+Desktop
+Javascript-Experiment-1
+Screen Shot 2015-04-16 at 7.18.14 PM.png
+Screen Shot 2015-04-16 at 7.20.20 PM.png
+Screen Shot 2015-04-16 at 7.24.44 PM.png
+Screen Shot 2015-04-30 at 7.07.48 PM.png
+Screen Shot 2015-04-30 at 7.10.49 PM.png
+Screen Shot 2015-04-30 at 7.21.16 PM.png
+domain-research
+fortheloveofsophia.net
+ceilidhs-mbp:Desktop ceilidhfraser$ cd fortheloveofsophia.net/
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ git add -A
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ git commit -m "move css file back to old location"
+[master 6f91834] move css file back to old location
+ Committer: Ceilidh Fraser <ceilidhfraser@ceilidhs-mbp.wireless.newschool.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename css/fortheloveofsophia.css => html/ForTheLoveOfSophia.css (100%)
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To https://github.com/CeilidhF/fortheloveofsophia.co
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/CeilidhF/fortheloveofsophia.co'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ git fetch --all
+Fetching origin
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/CeilidhF/fortheloveofsophia.co
+   1227fa8..bfe8b3f  master     -> origin/master
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To https://github.com/CeilidhF/fortheloveofsophia.co
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/CeilidhF/fortheloveofsophia.co'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ git pull
+Merge made by the 'recursive' strategy.
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.16 KiB | 0 bytes/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/CeilidhF/fortheloveofsophia.net.git
+To https://github.com/CeilidhF/fortheloveofsophia.co
+   bfe8b3f..0e7113a  master -> master
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ ssh ceilidhf@fortheloveofsophia.net
+ceilidhf@fortheloveofsophia.net's password: 
+Welcome to Ubuntu 14.10 (GNU/Linux 3.16.0-28-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Thu Apr 30 20:16:37 EDT 2015
+
+  System load:  0.0                Processes:           135
+  Usage of /:   19.1% of 29.40GB   Users logged in:     12
+  Memory usage: 23%                IP address for eth0: 45.55.145.55
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+89 packages can be updated.
+59 updates are security updates.
+
+New release '15.04' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Thu Apr 30 19:43:10 2015 from 149.31.194.191
+ceilidhf@web-advanced-js-spring-2015:~$ ls
+fortheloveofsophia.net
+ceilidhf@web-advanced-js-spring-2015:~$ cd fortheloveofsophia.net/
+ceilidhf@web-advanced-js-spring-2015:~/fortheloveofsophia.net$ git pull
+remote: Counting objects: 12, done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+From https://github.com/CeilidhF/fortheloveofsophia.co
+   938ce5d..0e7113a  master     -> origin/master
+Updating 938ce5d..0e7113a
+Fast-forward
+ .DS_Store                                                | Bin 0 -> 6148 bytes
+ README.md                                                |   2 +-
+ .../ForTheLoveOfSophia.css                               |   0
+ 3 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 .DS_Store
+ rename css/fortheloveofsophia.css => html/ForTheLoveOfSophia.css (100%)
+ceilidhf@web-advanced-js-spring-2015:~/fortheloveofsophia.net$ exit
+logout
+Connection to fortheloveofsophia.net closed.
+ceilidhs-mbp:fortheloveofsophia.net ceilidhfraser$ 
