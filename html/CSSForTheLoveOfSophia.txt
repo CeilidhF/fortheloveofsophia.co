@@ -1,0 +1,141 @@
+.body {
+	line-height: 40px;
+	height:100%;
+}
+.bodycopy {
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align:center;
+	opacity: 0.7;
+	color: rgb(207,207,207);
+	}
+
+a:link, a:visited, a:visited {
+	text-decoration: none;
+	}
+.extra {
+	position: fixed;
+	bottom:50px;
+  	left:0px;
+  	width:100%;
+  	text-align:center;
+  	display:none;	
+  	}
+p.demos a.current-demo:hover{
+	background: #ffd252;
+	}
+.color2:hover .extra {
+		display: block;
+		text-align: center;
+		top: 425px;
+	}
+.color5:hover .extra {
+		display: block;
+		text-align: center;
+		top: 425px;
+	}
+.color8:hover .extra {
+		display: block;
+		text-align: center;
+		top: 425px;
+	}
+.color11:hover .extra {
+		display: block;
+		text-align: center;
+		top: 425px;
+	}
+.color12:hover .extra {
+		display: block;
+		text-align: center;
+		top: 425px;
+	}
+.color13:hover .extra {
+		display: block;
+		text-align: center;
+		top: 425px;
+	}
+.color14:hover .extra {
+		display: block;
+		text-align: center;
+		top: 425px;
+	}
+.color15:hover .extra {
+		display: block;
+		text-align: center;
+		top: 425px;
+	}
+.color16:hover .extra {
+		display: block;
+		text-align: center;
+		top: 800px;
+	}
+a:hover {
+	font-size: 35px;
+	font-weight: bold;
+	opacity: 1;
+	}
+.color2 {
+	color: rgb(207,207,207);
+	display: inline-block;
+	height: 30px;
+	margin-right:20px;
+	}
+.color5 {
+	color: rgb(219,146,31);
+	display: inline-block;
+	height: 30px;
+	margin-right:47px;
+	}
+.color6 {
+	color: rgb(0,0,238);
+	display: inline-block;
+	height: 30px;
+	margin-right:47px;
+	}
+.color7 {
+	color: rgb(153,102,102);
+	display: inline-block;
+	height: 30px;
+	}
+.color8 {
+	color: rgb(220,0,0);
+	display: inline-block;
+	height: 30px;
+	margin-right:23px;
+	}
+.color11 {
+	color: rgb(102,255,51);
+	display: inline-block;
+	height: 30px;
+	margin-right:27px;
+	}
+.color12 {
+	color: rgb(128,128,128);
+	display: inline-block;
+	height: 30px;
+	margin-right:27px;
+	}
+.color13 {
+	color: rgb(178,224,224);
+	display: inline-block;
+	margin-right:27px;
+	height: 30px;
+	}
+.color14 {
+	color: rgb(194,127,112);
+	display: inline-block;
+	height: 30px;
+	margin-right:55px;
+	}
+.color15 {
+	color: rgb(203,221,159);
+	display: inline-block;
+	height: 30px;
+	margin-right:55px;
+	}
+.color16 {
+	color: rgb(169,44,192);
+	display: inline-block;
+	height: 30px;
+	}
