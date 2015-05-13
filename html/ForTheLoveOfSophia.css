@@ -32,7 +32,7 @@ a:link, a:visited, a:visited {
   	max-width: 850px;
   	}
   	
-  .aristotlepagetitle {
+.aristotlepagetitle {
 	font-size: 75px;
   	text-align:center;	
   	font-weight: bold;
@@ -487,5 +487,9 @@ p {
 .bodycopy {
 	font-size: 50px;
 	}
+.extra {
+  	display:none;	
+  	}
+a:hover; none;
 
 }
