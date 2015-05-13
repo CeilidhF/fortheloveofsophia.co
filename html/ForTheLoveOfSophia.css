@@ -29,7 +29,21 @@ a:link, a:visited, a:visited {
 	font-size: 75px;
   	text-align:center;	
   	font-weight: bold;
+  	max-width: 850px;
   	}
+  	
+  .aristotlepagetitle {
+	font-size: 75px;
+  	text-align:center;	
+  	font-weight: bold;
+  	max-width: 850px;
+  	position: fixed;
+  	background: white;
+  	margin-top:-8px;
+  	height: 275px;
+  	}
+  
+  	
 p.demos a.current-demo:hover{
 	background: #ffd252;
 	}
@@ -270,10 +284,11 @@ p {
 	font-size: 20px;
 	text-align:left;
 	opacity: 1;
-	margin-left: 300px;
-	margin-right: 300px;
+	max-width: 850px;
 	margin-bottom: 200px;
 	color: rgb(207,207,207);
+	max-width: 850px;
+	margin: auto;
 	}
 	
 .endtext1{
@@ -281,6 +296,7 @@ p {
 	font-weight: lighter;
 	font-size: 20px;
 	color: #9933FF;
+	max-width: 1380px;
 	}
 	
 .style1{
@@ -301,16 +317,19 @@ p {
 .style4{
 	text-indent: 120px;
 	transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
 	}
 	
 .style5{
 	text-indent: 200px;
 	transform: rotate(55deg);
+	-ms-transform: rotate(15deg);
 	}
 	
 .style6{
 	text-indent: 20px;
 	transform: rotate(90deg);
+	-ms-transform: rotate(15deg);
 	}
 	
 .style7{
@@ -367,4 +386,81 @@ p {
 	
 .category {
 	display: none;
+}
+
+.humans {
+    position: relative;
+    left: 30px;
+    width: 500px;
+    max-width: 850px;
+}
+
+.animals {
+    position: relative;
+    right: -325px;
+    width: 500px;
+    max-width: 850px;
+}
+
+.questions {
+    position: relative;
+    width: 780px;
+    border-style: solid;
+    border-width: 20px;
+    border-top-width: 100px;
+    border-bottom-width: 100px;
+    padding: 10px;
+}
+
+.nonquestions {
+    position: relative;
+    width: 850px;
+}
+
+.aristotle {
+    position: fixed;
+    margin: -120px;
+    width: 890px;
+    border-style: solid;
+    border-width: 100px;
+    border-top-width: 300px;
+    border-bottom-width: 300px;
+}
+
+
+
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+.bodycopylongtext{
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 40px;
+	text-align:left;
+	opacity: 1;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: rgb(207,207,207);
+	}
+	
+.themind {
+	font-size: 50px;
+	}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  
+
 }
