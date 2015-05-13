@@ -440,27 +440,18 @@ p {
 .bodycopylongtext{
 	font-family: "Century Gothic", Helvetica, sans-serif;
 	font-weight: lighter;
-	font-size: 40px;
+	font-size: 100px;
 	text-align:left;
 	opacity: 1;
-	margin-left: 10px;
+	margin: auto;
+	margin-left: -10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
 	color: rgb(207,207,207);
 	}
 	
 .themind {
-	font-size: 50px;
+	font-size: 200px;
 	}
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-  
 
 }
