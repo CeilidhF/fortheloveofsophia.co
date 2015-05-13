@@ -453,36 +453,39 @@ p {
 	color: #9933FF;
 	font-size: 20px;
 	display: block;
-	height: 30px;
+	height: 60px;
 	margin: auto;
 	}
 .color21a {
 	color: #00FF99;
 	font-size: 20px;
 	display: block;
-	height: 30px;
+	height: 60px;
 	margin: auto;
 	}
 .color22a {
 	color: #FF9900;
 	display: block;
 	font-size: 20px;
-	height: 30px;
+	height: 60px;
 	margin: auto;
 	}
 .color23a {
 	color: #FF0000;
 	display: block;
 	font-size: 20px;
-	height: 30px;
+	height: 60px;
 	margin: auto;
 	}
 .color24a {
 	color: #0000FF;
 	display: block;
 	font-size: 20px;
-	height: 30px;
+	height: 60px;
 	margin: auto;
+	}
+.bodycopy {
+	font-size: 30px;
 	}
 
 }
