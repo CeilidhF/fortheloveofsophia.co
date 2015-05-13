@@ -451,32 +451,37 @@ p {
 	}
 .color20a {
 	color: #9933FF;
+	font-size: 20px;
 	display: block;
-	height: 60px;
+	height: 30px;
 	margin: auto;
 	}
 .color21a {
 	color: #00FF99;
+	font-size: 20px;
 	display: block;
-	height: 60px;
+	height: 30px;
 	margin: auto;
 	}
 .color22a {
 	color: #FF9900;
 	display: block;
-	height: 60px;
+	font-size: 20px;
+	height: 30px;
 	margin: auto;
 	}
 .color23a {
 	color: #FF0000;
 	display: block;
-	height: 60px;
+	font-size: 20px;
+	height: 30px;
 	margin: auto;
 	}
 .color24a {
 	color: #0000FF;
 	display: block;
-	height: 60px;
+	font-size: 20px;
+	height: 30px;
 	margin: auto;
 	}
 
