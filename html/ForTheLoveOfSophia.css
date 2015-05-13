@@ -490,6 +490,18 @@ p {
 .extra {
   	display:none;	
   	}
-a:hover; none;
+.aristotlepagetitle {
+	font-size: 75px;
+  	text-align:center;	
+  	font-weight: bold;
+  	max-width: 850px;
+  	}
+.aristotle {
+    display: none;
+	}
+.questions {
+    display: none;
+}
+
 
 }
