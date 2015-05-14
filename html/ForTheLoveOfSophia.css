@@ -12,6 +12,9 @@
 	opacity: 1;
 	color: rgb(207,207,207);
 	}
+.justmobile {
+	display: inline-block;
+	}
 	
 a:link, a:visited, a:visited {
 	text-decoration: none;
@@ -396,6 +399,9 @@ p {
 	margin: auto;
 	padding-bottom: 60px;
 	}
+.color20b {
+	color: #9933FF;
+	}
 .color21a {
 	color: #00FF99;
 	display: block;
@@ -453,7 +459,21 @@ a:link, a:visited, a:visited {
 	opacity: 1;
 	color: rgb(207,207,207);
 	}
+.bodycopylongtext{
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 50px;
+	text-align:left;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
 .justmobile {
 	display: block;
 	}
+.pagetitle {
+	font-size: 75px;
+  	text-align:center;	
+  	font-weight: bold;
+  	max-width: 850px;
+  	}
 }
