@@ -1,3 +1,5 @@
+@media only screen
+	and (min-width : 1824px) {
 .body {
 	line-height: 40px;
 	height:100%;
@@ -432,7 +434,7 @@ p {
     border-top-width: 300px;
     border-bottom-width: 300px;
 }
-
+}
 
 
 
@@ -456,35 +458,30 @@ p {
 	color: rgb(207,207,207);
 	}
 .color20a {
-	hover: none;
 	color: #9933FF;
 	display: block;
 	height: 60px;
 	margin: auto;
 	}
 .color21a {
-	hover: none;
 	color: #00FF99;
 	display: block;
 	height: 60px;
 	margin: auto;
 	}
 .color22a {
-	hover: none;
 	color: #FF9900;
 	display: block;
 	height: 60px;
 	margin: auto;
 	}
 .color23a {
-	hover: none;
 	color: #FF0000;
 	display: block;
 	height: 60px;
 	margin: auto;
 	}
 .color24a {
-	hover: none;
 	color: #0000FF;
 	display: block;
 	height: 60px;
@@ -505,9 +502,6 @@ p {
 .aristotle {
     display: none;
 	}
-.questions {
-    display: none;
-}
 
 
 }
