@@ -408,10 +408,17 @@ p {
 	margin: auto;
 	padding-bottom: 60px;
 	}
+.color21b {
+	color: #00FF99;
+	padding-right:-10px;
+	}
 .color22a {
 	color: #FF9900;
 	display: block;
 	margin: auto;
+	}
+.color22b {
+	color: #FF9900;
 	}
 .color23a {
 	color: #FF0000;
@@ -419,11 +426,17 @@ p {
 	margin: auto;
 	padding-bottom: 60px;
 	}
+.color23b {
+	color: #FF0000;
+	}
 .color24a {
 	color: #0000FF;
 	display: block;
 	margin: auto;
 	padding-bottom: 60px;
+	}
+.color24b {
+	color: #0000FF;
 	}
 .bodycopy {
 	font-size: 50px;
@@ -466,14 +479,18 @@ a:link, a:visited, a:visited {
 	text-align:left;
 	margin-left: 10px;
 	margin-right: 10px;
+	padding-right:-10px;
 	}
 .justmobile {
 	display: block;
+	}
+.justmobile2 {
+	display: inline-block;
 	}
 .pagetitle {
 	font-size: 75px;
   	text-align:center;	
   	font-weight: bold;
-  	max-width: 850px;
+  	padding-right:-10px;
   	}
 }
