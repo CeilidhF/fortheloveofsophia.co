@@ -422,6 +422,8 @@ p {
 	}
 .color22b {
 	color: #FF9900;
+	margin-left: 15px;
+	margin-right:15px:
 	}
 .color23a {
 	color: #FF0000;
@@ -496,6 +498,9 @@ a:link, a:visited, a:visited {
   	font-weight: bold;
   	padding-right:-10px;
   	}
+.humans {
+    margin-left: 15px;
+}
 .animals {
     position: relative;
     right: -350px;
@@ -512,8 +517,13 @@ a:link, a:visited, a:visited {
     border-bottom-width: 2px;
 }
 .aristotletext {
-	margin-top: -1000px;
-	margin-left:10px;
-	margin-right: 10px;
+	margin-top: -1500px;
+	margin-bottom: -1500px;
+	margin-left:15px;
+	margin-right: 15px;
+	}
+.antstory {
+	margin-left: 15px;
+	margin-right: 15px;
 	}
 }
