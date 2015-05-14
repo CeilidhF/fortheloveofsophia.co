@@ -394,11 +394,13 @@ p {
 	color: #9933FF;
 	display: block;
 	margin: auto;
+	padding-bottom: 60px;
 	}
 .color21a {
 	color: #00FF99;
 	display: block;
 	margin: auto;
+	padding-bottom: 60px;
 	}
 .color22a {
 	color: #FF9900;
@@ -409,11 +411,13 @@ p {
 	color: #FF0000;
 	display: block;
 	margin: auto;
+	padding-bottom: 60px;
 	}
 .color24a {
 	color: #0000FF;
 	display: block;
 	margin: auto;
+	padding-bottom: 60px;
 	}
 .bodycopy {
 	font-size: 50px;
