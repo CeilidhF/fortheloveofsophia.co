@@ -512,6 +512,8 @@ a:link, a:visited, a:visited {
     border-bottom-width: 2px;
 }
 .aristotletext {
-	margin-top: -500px;
+	margin-top: -1000px;
+	margin-left:10px;
+	margin-right: 10px;
 	}
 }
