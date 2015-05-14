@@ -97,74 +97,7 @@ a:hover {
 	opacity: 1;
 	}
 	
-.color2 {
-	color: rgb(207,207,207);
-	display: inline-block;
-	height: 30px;
-	margin-right:20px;
-	}
-.color5 {
-	color: rgb(219,146,31);
-	display: inline-block;
-	height: 30px;
-	margin-right:47px;
-	}
-.color6 {
-	color: rgb(0,0,238);
-	display: inline-block;
-	height: 30px;
-	margin-right:47px;
-	}
-.color7 {
-	color: rgb(153,102,102);
-	display: inline-block;
-	height: 30px;
-	}
-.color8 {
-	color: rgb(220,0,0);
-	display: inline-block;
-	height: 30px;
-	margin-right:23px;
-	}
-.color11 {
-	color: rgb(102,255,51);
-	display: inline-block;
-	height: 30px;
-	margin-right:27px;
-	}
-.color12 {
-	color: rgb(61,61,245);
-	display: inline-block;
-	height: 30px;
-	margin-right:27px;
-	}
-.color13 {
-	color: rgb(178,224,224);
-	display: inline-block;
-	margin-right:27px;
-	height: 30px;
-	}
-.color14 {
-	color: rgb(194,127,112);
-	display: inline-block;
-	height: 30px;
-	margin-right:55px;
-	}
-.color15 {
-	color: rgb(203,221,159);
-	display: inline-block;
-	height: 30px;
-	margin-right:55px;
-	}
-.color16 {
-	color: rgb(169,44,192);
-	display: inline-block;
-	height: 30px;
-	}
-	
-	
-	
-	
+
 	
 	
 	
@@ -460,31 +393,26 @@ p {
 .color20a {
 	color: #9933FF;
 	display: block;
-	height: 60px;
 	margin: auto;
 	}
 .color21a {
 	color: #00FF99;
 	display: block;
-	height: 60px;
 	margin: auto;
 	}
 .color22a {
 	color: #FF9900;
 	display: block;
-	height: 60px;
 	margin: auto;
 	}
 .color23a {
 	color: #FF0000;
 	display: block;
-	height: 60px;
 	margin: auto;
 	}
 .color24a {
 	color: #0000FF;
 	display: block;
-	height: 60px;
 	margin: auto;
 	}
 .bodycopy {
@@ -516,7 +444,7 @@ a:link, a:visited, a:visited {
 .bodycopy {
 	font-family: "Century Gothic", Helvetica, sans-serif;
 	font-weight: lighter;
-	font-size: 20px;
+	font-size: 60px;
 	text-align:center;
 	opacity: 1;
 	color: rgb(207,207,207);
