@@ -370,6 +370,9 @@ p {
     border-top-width: 300px;
     border-bottom-width: 300px;
 }
+.antstory {
+	position: fixed;
+	}
 }
 
 
