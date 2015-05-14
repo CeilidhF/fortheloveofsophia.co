@@ -373,6 +373,20 @@ p {
 .aristotletext {
 	font-weight: lighter;
 	}
+.bfskinner- {
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg); /* Standard syntax */
+    max-width: 850px;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    }
+.bfskin {
+	-ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg); /* Standard syntax */
+    max-width: 850px
+    }
 }
 
 
