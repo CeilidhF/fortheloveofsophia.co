@@ -370,8 +370,8 @@ p {
     border-top-width: 300px;
     border-bottom-width: 300px;
 }
-.antstory {
-	position: fixed;
+.aristotletext {
+	font-weight: lighter;
 	}
 }
 
@@ -511,4 +511,7 @@ a:link, a:visited, a:visited {
     border-top-width: 2px;
     border-bottom-width: 2px;
 }
+.aristotletext {
+	margin-top: -500px;
+	}
 }
